@@ -4,6 +4,7 @@ Akron,Akron Zips,Akron
 Alabama,Alabama Crimson Tide,Alabama
 Appalachian State,Appalachian State Mountaineers,AppalachianSt
 Arizona,Arizona Wildcats,Arizona
+,Arizona Wildcats,ArizonaU
 Arizona State,Arizona State Sun Devils,ArizonaState
 Arkansas,Arkansas Razorbacks,Arkansas
 Arkansas State,Arkansas State Red Wolves,ArkansasState
@@ -39,6 +40,7 @@ Georgia State,Georgia State Panthers,GeorgiaState
 Georgia Tech,Georgia Tech Yellow Jackets,GeorgiaTech
 Hawaii,Hawaii Warriors,Hawaii
 Houston,Houston Cougars,Houston
+,Houston Cougars,HoustonU
 Idaho,Idaho Vandals,Idaho
 Illinois,Illinois Fighting Illini,Illinois
 Indiana,Indiana Hoosiers,Indiana
@@ -63,6 +65,7 @@ Michigan State,Michigan State Spartans,MichiganState
 Middle Tennessee,Middle Tennessee State Blue Raiders,MiddleTennSt
 Minnesota,Minnesota Golden Gophers,MinnesotaU
 Mississippi State,Mississippi State Bulldogs,MississippiState
+,Mississippi State Bulldogs,MississippiSt
 Missouri,Missouri Tigers,Missouri
 Navy,Navy Midshipmen,Navy
 NC State,North Carolina State Wolfpack,NCState
@@ -72,7 +75,8 @@ New Mexico,New Mexico Lobos,NewMexico
 New Mexico State,New Mexico State Aggies,NewMexicoState
 North Carolina,North Carolina Tar Heels,NorthCarolina
 North Texas,North Texas Mean Green,NorthTexas
-Northern Illinois,Northern Illinois Huskies,NorthernIllinois
+Northern Illinois,Northern Illinois Huskies,NoIllinois
+,Northern Illinois Huskies,NorthernIllinois
 Northwestern,Northwestern Wildcats,Northwestern
 Notre Dame,Notre Dame Fighting Irish,NotreDame
 Ohio,Ohio Bobcats,Ohio
@@ -124,6 +128,7 @@ Virginia,Virginia Cavaliers,Virginia
 Virginia Tech,Virginia Tech Hokies,VirginiaTech
 Wake Forest,Wake Forest Demon Deacons,WakeForest
 Washington,Washington Huskies,Washington
+,Washington Huskies,WashingtonU
 Washington State,Washington State Cougars,WashingtonState
 West Virginia,West Virginia Mountaineers,WestVirginia
 Western Kentucky,Western Kentucky Hilltoppers,WesternKentucky

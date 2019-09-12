@@ -35,7 +35,7 @@ change_directory('/Database/')
 
 #Headings
 boxscore_head = ['Year', 'Week', 'Home', 'Home Score', 'Away', 'Away Score', 'ID']
-win_head = ['Year', 'Team', 'Win Totals', 'Actual Wins']
+win_head = ['Year', 'Team', 'Win Totals', 'Actual Wins','Actual Losses']
 spread_head = ['Year','Week','Home','Away','Spread','Total']
 
 #Create lists of database
@@ -86,11 +86,8 @@ for year in range(2019, 2020):
                             gp += 1
                 
                 #Pythagorean Expectation Formula
-                if team[2] == 'Northern Illinois Huskies':
-                    pass
-                else:
-                    pyth = (fp**2.37/(fp**2.37+ap**2.37)) * gp
-                    w_teams[index][3] = w_teams[index][3] + pyth
+                pyth = (fp**2.37/(fp**2.37+ap**2.37)) * gp
+                w_teams[index][3] = w_teams[index][3] + pyth
                 index += 1
 
         else:

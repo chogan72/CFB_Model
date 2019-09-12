@@ -33,11 +33,11 @@ def database_reader(current_file, head_list):
 
 change_directory('\\Database\\')
 
-game_data = ['Year', 'Team', 'Win Totals', 'Actual Wins']
+game_data = ['Year', 'Team', 'Win Totals', 'Actual Wins', 'Actual Losses']
 vi_list = []
 database('CFB-Win-Total-Database', game_data)
 
-head_list = ['Year', 'Team', 'Win Total', 'Actual Wins']
+head_list = ['Year', 'Team', 'Win Total', 'Actual Wins', 'Actual Losses']
 game_log = database_reader('Win-Totals.csv', head_list)
 
 box_list = ['Year','Week','Home','Home Score','Away','Away Score']
@@ -49,8 +49,12 @@ for team in game_log:
             if team[1] == score[2]:
                 if int(score[3]) > int(score[5]):
                     team[3] = int(team[3]) + 1
-            elif team[1] == score[4]:
+                if int(score[3]) < int(score[5]):
+                    team[4] = int(team[4]) + 1
+            if team[1] == score[4]:
                 if int(score[5]) > int(score[3]):
                     team[3] = int(team[3]) + 1
+                if int(score[5]) < int(score[3]):
+                    team[4] = int(team[4]) + 1
                     
     database('CFB-Win-Total-Database', team)
