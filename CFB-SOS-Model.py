@@ -36,12 +36,13 @@ change_directory('/Database/')
 #Headings
 boxscore_head = ['Year', 'Week', 'Home', 'Home Score', 'Away', 'Away Score', 'ID']
 win_head = ['Year', 'Team', 'Win Totals', 'Actual Wins', 'Actual Losses']
-spread_head = ['Year','Week','Home','Away','Spread','Total']
 
 #Create lists of database
 boxscore_list = database_reader('CFB-Boxscore-Database.csv', boxscore_head)
 win_list = database_reader('CFB-Win-Total-Database.csv', win_head)
-spread_list = database_reader('CFB-Spread-Database.csv', spread_head)
+
+head = ['Year','Week','Team','SOS']
+database('SOS-Model', head)
 
 for team in win_list:
     OR = 0
@@ -84,6 +85,11 @@ for team in win_list:
                                     if g2[2] == t3[1] and t3[0] == team[0]:
                                         OOR += int(t3[3])
                                         OOR_Games += int(t3[3]) +int(t3[4])
-
-    SOS = ((2*(OR/OR_Games))+(OOR/OOR_Games))/3
-    print(team[0],team[1],SOS)
+                                        
+            if team[1] == game[2] or team[1] == game[4]:
+                if OR_Games == 0 or OOR_Games == 0:
+                    pass
+                else:
+                    SOS = ((2*(OR/OR_Games))+(OOR/OOR_Games))/3
+                final = [team[0],game[1],team[1],SOS]
+                database('SOS-Model', final)

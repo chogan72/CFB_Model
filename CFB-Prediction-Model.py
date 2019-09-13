@@ -46,7 +46,7 @@ head = ['Year','Week','Home','Spread','Home Wins','Away','Away Wins','Advantage'
 for year in range(2019, 2020):
     change_directory('/Model/')
     win_list = database_reader(str(year) + '-Weekly-Win-Total-Model.csv', win_head)
-    for week in range(1, 2):
+    for week in range(3, 4):
         database(str(year) + '-' + str(week) + '-Prediction-Model', head)
         for game in spread_list:
             if game[0] == str(year) and game[1] == str(week):
@@ -66,7 +66,7 @@ for year in range(2019, 2020):
                     head[8] = game[3]
                 elif advantage > 0:
                     head[8] = game[2]
-                if advantage >= 5 or advantage <= -5:
+                if advantage >= 15 or advantage <= -15:
                     head[9] = 1
                 if float(head[4]) == 0 or float(head[6]) == 0:
                     head[9] = '-'

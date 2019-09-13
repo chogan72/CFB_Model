@@ -37,11 +37,13 @@ change_directory('/Database/')
 boxscore_head = ['Year', 'Week', 'Home', 'Home Score', 'Away', 'Away Score', 'ID']
 win_head = ['Year', 'Team', 'Win Totals', 'Actual Wins','Actual Losses']
 spread_head = ['Year','Week','Home','Away','Spread','Total']
+sos_head = ['Year','Week','Team','SOS']
 
 #Create lists of database
 boxscore_list = database_reader('CFB-Boxscore-Database.csv', boxscore_head)
 win_list = database_reader('CFB-Win-Total-Database.csv', win_head)
 spread_list = database_reader('CFB-Spread-Database.csv', spread_head)
+sos_list = database_reader('SOS-Model.csv', sos_head)
 
 for year in range(2019, 2020):
     head = ['Year','Week','Team','Wins']
@@ -50,6 +52,7 @@ for year in range(2019, 2020):
     database(str(year) + '-Weekly-Win-Total-Model', head) 
     teams = []
     w_teams = []
+    final_teams = []
     for week in range (1, 4):
         if week == 1:
             for win_total in win_list:
@@ -109,5 +112,33 @@ for year in range(2019, 2020):
                     new_list = [year,week,team[2],team[3] +  new]
                     w_teams.append(new_list)
 
-    for row in w_teams:
+        for team in w_teams:
+            week_weigth = 0
+            this_year = 0
+            last_year = 0
+            last_round = [2000,40,'Test',0]
+            for sos in sos_list:
+                if team[2] == last_round[2] and int(team[0])-1 == int(last_round[0]) and last_round[2] != sos[2]:
+                    if week == 1:
+                        week_weigth = 0
+                    elif week >= 2 and week <=10:
+                        week_weigth = (week - 1) * .1
+                    elif week > 10:
+                        week_weigth = 1
+                    week_weigth = 1 - week_weigth
+                    last_year = week_weigth * float(last_round[3])
+                elif team[2] == sos[2] and int(team[0]) == int(sos[0]) and week-1 == int(sos[1]):
+                    if week == 1:
+                        week_weigth = 0
+                    elif week >= 2 and week <=10:
+                        week_weigth = (week - 1) * .1
+                    elif week > 10:
+                        week_weigth = 1
+                    this_year = week_weigth * float(sos[3])
+                last_round = sos
+            
+            team[3] = team[3] * ((float(this_year) + float(last_year))*2)
+            final_teams.append(team)
+                    
+    for row in final_teams:
         database(str(year) + '-Weekly-Win-Total-Model', row)                
