@@ -39,26 +39,26 @@ win_head = ['Year','Week', 'Team', 'Wins']
 #Create lists of database
 change_directory('/Database/')
 spread_list = database_reader('CFB-Spread-Database.csv', spread_head)
-os.chdir(first_directory)
-
-head = ['Year','Week','Home','Spread','Home Wins','Away','Away Wins','Advantage','ADV Team','ADV Bet']  
+os.chdir(first_directory)  
 
 for year in range(2019, 2020):
     change_directory('/Model/')
     win_list = database_reader(str(year) + '-Weekly-Win-Total-Model.csv', win_head)
-    for week in range(3, 4):
+    for week in range(1, 4):
+        head = ['Year','Week','Home','Spread','Home Wins','Away','Away Wins','Advantage','ADV Team','ADV Bet']
         database(str(year) + '-' + str(week) + '-Prediction-Model', head)
         for game in spread_list:
             if game[0] == str(year) and game[1] == str(week):
                 home_score = 0
                 away_score = 0
+                advantage = 0
                 for team in win_list:
                     if team[0] == str(year) and team[1] == str(week):
                         if team[2] == game[2]:
                             home_score = team[3]
                         elif team[2] == game[3]:
                             away_score = team[3]
-                adj_spread = ((float(away_score) - float(home_score))*2)-3
+                adj_spread = ((float(away_score) - float(home_score))*3)-3
                 if game[4] != '':
                     advantage = float(game[4]) - adj_spread
                 head = [year,week,game[2],game[4],home_score,game[3],away_score,advantage,'-','-']
@@ -66,7 +66,7 @@ for year in range(2019, 2020):
                     head[8] = game[3]
                 elif advantage > 0:
                     head[8] = game[2]
-                if advantage >= 15 or advantage <= -15:
+                if advantage >= 20 or advantage <= -20:
                     head[9] = 1
                 if float(head[4]) == 0 or float(head[6]) == 0:
                     head[9] = '-'
