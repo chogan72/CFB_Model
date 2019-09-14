@@ -75,11 +75,10 @@ for year in range(2010,2019):
                     game[10] = split[0]
                 
                 if float(game_data[4]) < float(game[10]):
-                    game_data[4] = '-' + str(game_data[4])
                     game_data[5] = game[10]
-                else:
+                elif float(game_data[4]) > float(game[10]):
                     game_data[5] =  game_data[4]
-                    game_data[4] = game[10]
+                    game_data[4] = '-' + str(game[10])
                 
             game_data[1] = game[0]
             for tfix in fix_log:

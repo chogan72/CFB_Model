@@ -55,8 +55,8 @@ for year in range(2010,2020):
     index = 0
     for game in game_log:
         if index == 1:
-            game_data[4] = game[3]
-            game_data[5] = game[8]
+            game_data[2] = game[3]
+            game_data[3] = game[8]
             for tfix in fix_log:
                 if game_data[2] == tfix[2]:
                     game_data[2] = tfix[1]
@@ -78,6 +78,6 @@ for year in range(2010,2020):
             database('CFB-Boxscore-Database', game_data)
             index = 0
         elif index == 0:
-            game_data[2] = game[3]
-            game_data[3] = game[8]
+            game_data[4] = game[3]
+            game_data[5] = game[8]
             index = 1
