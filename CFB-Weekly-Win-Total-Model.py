@@ -53,7 +53,7 @@ for year in range(2019, 2020):
     teams = []
     w_teams = []
     final_teams = []
-    for week in range (1, 4):
+    for week in range (1, 5):
         if week == 1:
             for win_total in win_list:
                 stats = [year,week]
@@ -116,7 +116,7 @@ for year in range(2019, 2020):
         week_weigth = 0
         this_year = 0
         last_year = 0
-        last_round = [2000,40,'Test',0]
+        last_round = [0,0,'Test',0]
         week = int(team[1])
         for sos in sos_list:
             if team[2] == last_round[2] and int(team[0])-1 == int(last_round[0]) and last_round[2] != sos[2]:
@@ -138,7 +138,7 @@ for year in range(2019, 2020):
                 this_year = week_weigth * float(sos[3])
             last_round = sos
         
-        team[3] = team[3] * ((float(this_year) + float(last_year))*3)
+        team[3] = team[3] * ((float(this_year) + float(last_year))*2.8)
         final_teams.append(team)
 
     for row in final_teams:

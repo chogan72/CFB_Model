@@ -8197,190 +8197,246 @@ Year,Week,Team,SOS
 2018,12,Wyoming Cowboys,0.5476923076923077
 2018,13,Wyoming Cowboys,0.5308434495525546
 2019,1,Air Force Falcons,0
-2019,1,Akron Zips,0.75
-2019,2,Akron Zips,0.7222222222222222
-2019,1,Alabama Crimson Tide,0.6666666666666666
-2019,2,Alabama Crimson Tide,0.6666666666666666
+2019,1,Akron Zips,0.5111111111111111
+2019,2,Akron Zips,0.5750000000000001
+2019,3,Akron Zips,0.5750000000000001
+2019,1,Alabama Crimson Tide,0.7777777777777777
+2019,2,Alabama Crimson Tide,0.7777777777777777
+2019,3,Alabama Crimson Tide,0.7777777777777777
 2019,1,Appalachian State Mountaineers,0
-2019,1,Arizona Wildcats,0.8333333333333334
-2019,2,Arizona Wildcats,0.8333333333333334
+2019,1,Arizona Wildcats,0.6666666666666666
+2019,2,Arizona Wildcats,0.6666666666666666
+2019,3,Arizona Wildcats,0.6666666666666666
 2019,1,Arizona State Sun Devils,0.3333333333333333
 2019,1,Arkansas Razorbacks,0
-2019,2,Arkansas Razorbacks,0.5833333333333334
+2019,2,Arkansas Razorbacks,0.7222222222222222
+2019,3,Arkansas Razorbacks,0.7222222222222222
 2019,1,Arkansas State Red Wolves,0.6666666666666666
-2019,1,Army Black Knights,0.16666666666666666
+2019,1,Army Black Knights,0.2222222222222222
 2019,2,Army Black Knights,0.4666666666666666
-2019,1,Auburn Tigers,0.5833333333333334
-2019,2,Auburn Tigers,0.5714285714285715
-2019,1,Ball State Cardinals,0.6666666666666666
+2019,3,Army Black Knights,0.4666666666666666
+2019,1,Auburn Tigers,0.7222222222222222
+2019,2,Auburn Tigers,0.7111111111111111
+2019,3,Auburn Tigers,0.7111111111111111
+2019,1,Ball State Cardinals,0.4444444444444444
 2019,1,Baylor Bears,0
 2019,2,Baylor Bears,0
 2019,1,Boise State Broncos,0.3333333333333333
 2019,1,Boston College Eagles,0.3333333333333333
 2019,1,Bowling Green State Falcons,0
 2019,1,Buffalo Bulls,0
-2019,1,Brigham Young Cougars,0.8333333333333334
-2019,2,Brigham Young Cougars,0.8333333333333334
+2019,1,Brigham Young Cougars,0.8888888888888888
+2019,2,Brigham Young Cougars,0.8888888888888888
+2019,3,Brigham Young Cougars,0.7222222222222223
 2019,1,California Golden Bears,0
-2019,2,California Golden Bears,0.6666666666666666
+2019,2,California Golden Bears,0.7222222222222222
+2019,3,California Golden Bears,0.7222222222222222
 2019,1,Central Florida Knights,0
 2019,1,Central Michigan Chippewas,0
 2019,1,North Carolina-Charlotte 49ers,0
 2019,2,North Carolina-Charlotte 49ers,0
+2019,3,North Carolina-Charlotte 49ers,0.19999999999999998
 2019,1,Cincinnati Bearcats,0.3333333333333333
 2019,1,Clemson Tigers,0.3333333333333333
 2019,2,Clemson Tigers,0.3333333333333333
+2019,3,Clemson Tigers,0.4166666666666667
 2019,1,Coastal Carolina Chanticleers,0.6666666666666666
-2019,1,Colorado Buffaloes,0.3333333333333333
-2019,2,Colorado Buffaloes,0.48888888888888893
-2019,1,Colorado State Rams,0.7777777777777778
-2019,1,Duke Blue Devils,0.8333333333333334
-2019,2,Duke Blue Devils,0.8333333333333334
+2019,1,Colorado Buffaloes,0.2222222222222222
+2019,2,Colorado Buffaloes,0.5238095238095238
+2019,3,Colorado Buffaloes,0.5238095238095238
+2019,1,Colorado State Rams,0.611111111111111
+2019,1,Duke Blue Devils,0.8888888888888888
+2019,2,Duke Blue Devils,0.8888888888888888
+2019,3,Duke Blue Devils,0.8888888888888888
 2019,1,East Carolina Pirates,0.6666666666666666
 2019,1,Eastern Michigan Eagles,0.3333333333333333
 2019,1,Florida Atlantic Owls,0.6666666666666666
-2019,1,Florida International Golden Panthers,0.5555555555555555
+2019,1,Florida International Golden Panthers,0.6944444444444443
 2019,1,Florida Gators,0.3333333333333333
 2019,2,Florida Gators,0.3333333333333333
+2019,3,Florida Gators,0.625
 2019,1,Florida State Seminoles,0.6666666666666666
-2019,1,Fresno State Bulldogs,0.7777777777777778
-2019,1,Georgia Bulldogs,0.25
-2019,2,Georgia Bulldogs,0.25
-2019,1,Georgia Southern Eagles,0.7777777777777778
+2019,1,Fresno State Bulldogs,0.5873015873015873
+2019,1,Georgia Bulldogs,0.2222222222222222
+2019,2,Georgia Bulldogs,0.2222222222222222
+2019,3,Georgia Bulldogs,0.2222222222222222
+2019,1,Georgia Southern Eagles,0.8333333333333334
 2019,1,Georgia State Panthers,0.3333333333333333
-2019,1,Georgia Tech Yellow Jackets,0.6666666666666666
+2019,1,Georgia Tech Yellow Jackets,0.75
 2019,1,Hawaii Warriors,0.6666666666666666
 2019,2,Hawaii Warriors,0.6666666666666666
-2019,1,Houston Cougars,0.8333333333333334
-2019,2,Houston Cougars,0.8333333333333334
-2019,1,Illinois Fighting Illini,0.3333333333333333
-2019,2,Illinois Fighting Illini,0.5
-2019,1,Indiana Hoosiers,0.3333333333333333
-2019,2,Indiana Hoosiers,0.3333333333333333
+2019,3,Hawaii Warriors,0.7037037037037037
+2019,1,Houston Cougars,0.7222222222222222
+2019,2,Houston Cougars,0.7222222222222222
+2019,3,Houston Cougars,0.7222222222222222
+2019,1,Illinois Fighting Illini,0.26666666666666666
+2019,2,Illinois Fighting Illini,0.3833333333333333
+2019,3,Illinois Fighting Illini,0.3833333333333333
+2019,1,Indiana Hoosiers,0.2222222222222222
+2019,2,Indiana Hoosiers,0.2222222222222222
+2019,3,Indiana Hoosiers,0.2222222222222222
 2019,1,Iowa Hawkeyes,0.3333333333333333
 2019,2,Iowa Hawkeyes,0.4444444444444444
+2019,3,Iowa Hawkeyes,0.4444444444444444
 2019,1,Iowa State Cyclones,0
 2019,1,Kansas Jayhawks,0
 2019,2,Kansas Jayhawks,0
+2019,3,Kansas Jayhawks,0
 2019,1,Kansas State Wildcats,0
 2019,1,Kent State Golden Flashes,0.6666666666666666
-2019,1,Kentucky Wildcats,0.3333333333333333
-2019,2,Kentucky Wildcats,0.3333333333333333
-2019,1,Liberty Flames,0.5
-2019,2,Liberty Flames,0.5
+2019,1,Kentucky Wildcats,0.5555555555555555
+2019,2,Kentucky Wildcats,0.5555555555555555
+2019,3,Kentucky Wildcats,0.7238095238095239
+2019,1,Liberty Flames,0.4444444444444444
+2019,2,Liberty Flames,0.4444444444444444
+2019,3,Liberty Flames,0.4444444444444444
 2019,1,Louisiana-Lafayette Ragin Cajuns,0.6666666666666666
-2019,1,Louisiana Tech Bulldogs,0.5555555555555555
-2019,2,Louisville Cardinals,0.8333333333333334
-2019,2,Louisville Cardinals,0.8333333333333334
+2019,1,Louisiana Tech Bulldogs,0.5873015873015873
+2019,2,Louisville Cardinals,0.8888888888888888
+2019,2,Louisville Cardinals,0.8888888888888888
+2019,3,Louisville Cardinals,0.8888888888888888
 2019,1,Louisiana State Tigers,0.3333333333333333
-2019,2,Louisiana State Tigers,0.48888888888888893
+2019,2,Louisiana State Tigers,0.5333333333333333
+2019,3,Louisiana State Tigers,0.5333333333333333
 2019,1,Marshall Thundering Herd,0
 2019,2,Marshall Thundering Herd,0
+2019,3,Marshall Thundering Herd,0.4444444444444444
 2019,1,Maryland Terrapins,0
-2019,2,Maryland Terrapins,0.5
-2019,1,Memphis Tigers,0.5833333333333334
-2019,2,Memphis Tigers,0.5833333333333334
-2019,1,Miami-Florida Hurricanes,0.6666666666666666
+2019,2,Maryland Terrapins,0.4444444444444444
+2019,3,Maryland Terrapins,0.6222222222222222
+2019,1,Memphis Tigers,0.7222222222222222
+2019,2,Memphis Tigers,0.7222222222222222
+2019,3,Memphis Tigers,0.7222222222222222
+2019,1,Miami-Florida Hurricanes,0.8333333333333334
 2019,1,Miami-Ohio Redhawks,0.7777777777777778
 2019,1,Michigan Wolverines,0.3333333333333333
-2019,2,Michigan Wolverines,0.4444444444444444
-2019,1,Michigan State Spartans,0.6666666666666666
-2019,1,Middle Tennessee State Blue Raiders,0.7777777777777778
+2019,2,Michigan Wolverines,0.5238095238095238
+2019,1,Michigan State Spartans,0.5555555555555555
+2019,1,Middle Tennessee State Blue Raiders,0.8333333333333334
 2019,1,Minnesota Golden Gophers,0
 2019,1,Mississippi State Bulldogs,0.3333333333333333
-2019,1,Missouri Tigers,0.8333333333333334
-2019,2,Missouri Tigers,0.8333333333333334
+2019,1,Missouri Tigers,0.8888888888888888
+2019,2,Missouri Tigers,0.8888888888888888
+2019,3,Missouri Tigers,0.8888888888888888
 2019,1,Navy Midshipmen,0
+2019,3,Navy Midshipmen,0
 2019,1,North Carolina State Wolfpack,0.3333333333333333
-2019,1,Nebraska Cornhuskers,0.16666666666666666
-2019,2,Nebraska Cornhuskers,0.5777777777777778
-2019,1,Nevada Wolf Pack,0.4166666666666667
-2019,2,Nevada Wolf Pack,0.5
+2019,1,Nebraska Cornhuskers,0.2222222222222222
+2019,2,Nebraska Cornhuskers,0.5238095238095238
+2019,3,Nebraska Cornhuskers,0.5238095238095238
+2019,1,Nevada Wolf Pack,0.41269841269841273
+2019,2,Nevada Wolf Pack,0.5641025641025641
+2019,3,Nevada Wolf Pack,0.5641025641025641
 2019,1,New Mexico Lobos,0
 2019,1,New Mexico State Aggies,0.6666666666666666
 2019,1,North Carolina Tar Heels,0.3333333333333333
 2019,1,North Texas Mean Green,0
 2019,1,Northern Illinois Huskies,0
-2019,1,Northwestern Wildcats,0.5555555555555555
-2019,2,Notre Dame Fighting Irish,0.6666666666666666
+2019,1,Northwestern Wildcats,0.4222222222222222
+2019,3,Northwestern Wildcats,0.41269841269841273
+2019,2,Notre Dame Fighting Irish,0.7777777777777777
 2019,1,Ohio Bobcats,0
 2019,2,Ohio Bobcats,0
+2019,3,Ohio Bobcats,0.5555555555555555
 2019,1,Ohio State Buckeyes,0.3333333333333333
-2019,1,Oklahoma Sooners,0.6666666666666666
-2019,2,Oklahoma Sooners,0.6666666666666666
+2019,1,Oklahoma Sooners,0.5555555555555555
+2019,2,Oklahoma Sooners,0.5555555555555555
+2019,3,Oklahoma Sooners,0.4444444444444444
 2019,1,Oklahoma State Cowboys,0.3333333333333333
 2019,1,Old Dominion Monarchs,0
-2019,1,Mississippi Rebels,0.8333333333333334
-2019,2,Mississippi Rebels,0.6666666666666666
-2019,1,Oregon Ducks,0.8333333333333334
-2019,2,Oregon Ducks,0.6666666666666666
+2019,1,Mississippi Rebels,0.8888888888888888
+2019,2,Mississippi Rebels,0.7777777777777778
+2019,3,Mississippi Rebels,0.7777777777777778
+2019,1,Oregon Ducks,0.8888888888888888
+2019,2,Oregon Ducks,0.75
+2019,3,Oregon Ducks,0.75
 2019,1,Oregon State Beavers,0.6666666666666666
 2019,1,Penn State Nittany Lions,0
 2019,1,Pittsburgh Panthers,0.6666666666666666
-2019,1,Purdue Boilermakers,0.5
-2019,2,Purdue Boilermakers,0.375
-2019,1,Rice Owls,0.5
-2019,2,Rice Owls,0.5
-2019,1,Rutgers Scarlet Knights,0.16666666666666666
-2019,2,Rutgers Scarlet Knights,0.4666666666666666
+2019,1,Purdue Boilermakers,0.611111111111111
+2019,2,Purdue Boilermakers,0.4611111111111111
+2019,3,Purdue Boilermakers,0.5587301587301586
+2019,1,Rice Owls,0.5777777777777778
+2019,2,Rice Owls,0.5777777777777778
+2019,3,Rice Owls,0.5833333333333334
+2019,1,Rutgers Scarlet Knights,0.19999999999999998
+2019,2,Rutgers Scarlet Knights,0.5
 2019,1,San Diego State Aztecs,0
 2019,1,San Jose State Spartans,0
 2019,1,Southern Methodist Mustangs,0.3333333333333333
 2019,2,Southern Methodist Mustangs,0.3333333333333333
-2019,1,South Alabama Jaguars,0.5555555555555555
+2019,3,Southern Methodist Mustangs,0.3333333333333333
+2019,1,South Alabama Jaguars,0.611111111111111
 2019,1,South Carolina Gamecocks,0.6666666666666666
 2019,1,South Florida Bulls,0.6666666666666666
 2019,1,Southern Miss Golden Eagles,0
-2019,1,Stanford Cardinal,0.16666666666666666
-2019,2,Stanford Cardinal,0.5777777777777778
-2019,1,Syracuse Orange,0.16666666666666666
+2019,1,Stanford Cardinal,0.4444444444444444
+2019,2,Stanford Cardinal,0.5282051282051282
+2019,3,Stanford Cardinal,0.5282051282051282
+2019,1,Syracuse Orange,0.3333333333333333
 2019,2,Syracuse Orange,0.5
+2019,3,Syracuse Orange,0.5833333333333334
 2019,1,Texas Christian Horned Frogs,0
+2019,3,Texas Christian Horned Frogs,0.41269841269841273
 2019,1,Temple Owls,0
+2019,3,Temple Owls,0.6444444444444444
 2019,1,Tennessee Volunteers,0.6666666666666666
-2019,1,Texas Longhorns,0.16666666666666666
-2019,2,Texas Longhorns,0.5777777777777778
+2019,1,Texas Longhorns,0.2222222222222222
+2019,2,Texas Longhorns,0.6904761904761904
+2019,3,Texas Longhorns,0.4908424908424909
 2019,1,Texas A&M Aggies,0.3333333333333333
 2019,1,Texas State Bobcats,0.6666666666666666
 2019,1,Texas Tech Red Raiders,0
-2019,1,Toledo Rockets,0.6666666666666666
+2019,1,Toledo Rockets,0.7111111111111111
+2019,3,Toledo Rockets,0.7111111111111111
 2019,1,Troy Trojans,0
-2019,1,Tulane Green Wave,0.16666666666666666
-2019,2,Tulane Green Wave,0.611111111111111
-2019,1,Tulsa Golden Hurricane,0.8333333333333334
-2019,2,Tulsa Golden Hurricane,0.8333333333333334
+2019,3,Troy Trojans,0
+2019,1,Tulane Green Wave,0.2222222222222222
+2019,2,Tulane Green Wave,0.7222222222222222
+2019,3,Tulane Green Wave,0.7222222222222222
+2019,1,Tulsa Golden Hurricane,0.7777777777777778
+2019,2,Tulsa Golden Hurricane,0.7777777777777778
+2019,3,Tulsa Golden Hurricane,0.7777777777777778
 2019,1,Alabama-Birmingham Blazers,0
-2019,2,Alabama-Birmingham Blazers,0.3333333333333333
+2019,2,Alabama-Birmingham Blazers,0.26666666666666666
 2019,1,UCLA Bruins,0.6666666666666666
 2019,2,UCLA Bruins,0.6666666666666666
+2019,3,UCLA Bruins,0.7037037037037037
 2019,1,Connecticut Huskies,0
-2019,2,Connecticut Huskies,0.75
+2019,2,Connecticut Huskies,0.5111111111111111
 2019,1,Louisiana-Monroe Warhawks,0
 2019,1,Massachusetts Minutemen,0.5
 2019,2,Massachusetts Minutemen,0.5
+2019,3,Massachusetts Minutemen,0.5111111111111111
 2019,1,UNLV Rebels,0
 2019,2,UNLV Rebels,0
-2019,1,Southern California Trojans,0.3333333333333333
-2019,2,Southern California Trojans,0.48888888888888893
-2019,1,Utah Utes,0.6666666666666666
-2019,2,Utah Utes,0.6666666666666666
+2019,3,UNLV Rebels,0.4444444444444444
+2019,1,Southern California Trojans,0.2222222222222222
+2019,2,Southern California Trojans,0.375
+2019,3,Southern California Trojans,0.5238095238095238
+2019,1,Utah Utes,0.7222222222222222
+2019,2,Utah Utes,0.7222222222222222
+2019,3,Utah Utes,0.7222222222222222
 2019,1,Utah State Aggies,0.6666666666666666
 2019,1,Texas-El Paso Miners,0
 2019,2,Texas-El Paso Miners,0
 2019,1,Texas-San Antonio Roadrunners,0
 2019,1,Vanderbilt Commodores,0.6666666666666666
-2019,2,Vanderbilt Commodores,0.5555555555555556
+2019,2,Vanderbilt Commodores,0.5925925925925926
 2019,1,Virginia Cavaliers,0.3333333333333333
 2019,2,Virginia Cavaliers,0.3333333333333333
+2019,3,Virginia Cavaliers,0.3333333333333333
 2019,1,Virginia Tech Hokies,0.6666666666666666
 2019,1,Wake Forest Demon Deacons,0.3333333333333333
 2019,1,Washington Huskies,0
-2019,2,Washington Huskies,0.8333333333333334
+2019,2,Washington Huskies,0.8888888888888888
+2019,3,Washington Huskies,0.7777777777777778
 2019,1,Washington State Cougars,0.3333333333333333
 2019,1,West Virginia Mountaineers,0
 2019,1,Western Kentucky Hilltoppers,0
 2019,1,Western Michigan Broncos,0
 2019,1,Wisconsin Badgers,0.3333333333333333
 2019,2,Wisconsin Badgers,0.3333333333333333
-2019,1,Wyoming Cowboys,0.6666666666666666
-2019,2,Wyoming Cowboys,0.6666666666666666
+2019,1,Wyoming Cowboys,0.7777777777777777
+2019,2,Wyoming Cowboys,0.7777777777777777
+2019,3,Wyoming Cowboys,0.7777777777777777
